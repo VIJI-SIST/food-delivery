@@ -53,7 +53,7 @@ const EditOrder = () => {
       .then((updatedData) => {
         setForm(updatedData);
         alert("Order updated successfully!");
-        navigate("/orders");
+        navigate("/home");
       })
       .catch((error) => {
         console.error("Error updating order:", error);
