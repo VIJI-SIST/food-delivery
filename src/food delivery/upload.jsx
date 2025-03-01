@@ -100,7 +100,7 @@ const FoodOrder = () => {
                     </div>
 
                     <div className="mb-3">
-                        <label htmlFor="Price" className="form-label">Price:</label>
+                        <label htmlFor="contactNumber" className="form-label">contactNumber:</label>
                         <input
                             type="number"
                             id="contactNumber"
@@ -128,7 +128,7 @@ const FoodOrder = () => {
                         </select>
                     </div>
                     <div className="mb-3">
-                        <label htmlFor="totalprice" className="form-label">Contact Number:</label>
+                        <label htmlFor="totalprice" className="form-label">Price:</label>
                         <input
                             type="number"
                             id="totalprice"
